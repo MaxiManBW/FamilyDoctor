@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+
+
+html, body {
+	min-width: $min-width-xxxs;
+	margin: 10px 20px 10px 20px;
+	font-family: sans-serif;
+	font-size: em(16);
+	
+}
+html{
+	background: url(../img/background_global.png) -19px -70px repeat-y;
+	background-color: #dcd6d6;
+	z-index: -1;
+}
+
+.navigation {
+	background-color: #ff000000;
+}
+
+.body {
+	// background-color: #ffffff00;
+}
+
+.footer {
+	background-color: #ff00dd;
+}

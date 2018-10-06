@@ -1,0 +1,120 @@
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1274px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1030px) {
+	.app{
+		grid-template-columns:  1fr;
+		grid-template-rows: auto auto 1fr auto;
+		grid-template-areas: 	"main-header"
+													"navigation"
+													"body"
+													"footer"
+	}
+	.header{
+		.phone{
+		flex: 0 1 auto;
+		margin: 0 auto;
+		}
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.staff {
+		.staff-card {
+			.staff-photo {
+				max-width: 200px;
+			}
+		}
+	}
+	.header {
+		.img-logo {
+			flex: 0 1 100px;
+		}	
+		/*Disable Animation on Mobile Devices*/
+	}
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.staff {
+		.staff-card {
+			.staff-photo {
+				max-width: 150px;
+			}
+		}
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 321px) {
+	.staff {
+		.staff-card {
+			.staff-photo {
+				max-width: 100px;
+			}
+		}
+	}
+	.app{
+		grid-template-columns: auto 1fr;
+		grid-template-rows: 170px 1fr auto;
+		grid-template-areas: 	"navigation main-header"
+													"navigation body"
+													"navigation footer"
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

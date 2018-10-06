@@ -1,0 +1,12 @@
+.container-content {
+	@extend %my-flex;
+	
+	.doctor-oath {
+		border: 1px solid grey;
+		border-radius: 10px;
+		max-width: 600px;
+		margin: 5px 20px 5px 5px;
+		box-shadow: 5px 4px 8px 0px rgb(162, 141, 141), 4px 9px 11px 4p;
+		
+	}
+}

@@ -25,7 +25,17 @@
 												"footer";
 }
 
-
+.main-main-header{
+	position: relative;
+	height: 172px;
+	.img-logo {
+		position: absolute;		
+		top: -43px;
+    left: -16px;
+		img {
+			height: 246px;
+		}
+	}	
 .main-header {
 	// background-image: url(../img/backgrounds/banner-2369464_1920.jpg);
 	// background-position: bottom;
@@ -38,16 +48,17 @@
 		border-radius: 10px;
 		// background-color: rgb(172, 170, 173);
 		// width: 1274px;
-		height: 149px;
+		height: 142px;
 		
 	
-	background: url(../img/background_header.png) 0 0 repeat-x;
+	background: url(../img/background_header_2.png) no-repeat 0px 0px #bebec0;
 	// background-color: rgba(255, 255, 255, 0);
 	// border-radius: 10px;
 	// position: relative;
 	grid-area: main-header;
 	box-shadow: 0px 0px 30px -5px black inset;
 	
+}
 }
 .navigation {
 	background-color: rgba(255, 255, 255, 0);

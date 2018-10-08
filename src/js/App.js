@@ -13,7 +13,7 @@ import { Staff } from './content/Staff';
 import { Vacancy } from './content/Vacancy';
 import { Info } from './content/Info';
 import { Main }  from './content/Main';
-
+import logo from '../style/img/logo.svg';
 
 const MENU_NAMES = [
 	{name: "Головна", path: "/"},
@@ -32,9 +32,16 @@ export class App extends Component {
     return (
 			<Router>
 			<div className="app">
-				<div className="main-header"> 
-					<Header />
+				
+				<div className="main-main-header">
+					<div className="img-logo">
+						<img src={logo} alt=""/>
+					</div>
+					<div className="main-header"> 
+						<Header />
+					</div>
 				</div>
+				
 				
 				<div className="navigation">
 					<Menu menuName={MENU_NAMES}/>
@@ -50,7 +57,7 @@ export class App extends Component {
 					<Route path="/info" component={Info}/>
 					<Route path="/recording" component={Recording}/>
 				</div>
-				{/* <div className="footer">FOOTER</div> */}
+				{/* q	qqa<div className="footer">FOOTER</div> */}
 			</div>
 			</Router>
     );

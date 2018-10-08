@@ -7,14 +7,14 @@ export class Header extends Component {
   render() {
     return (
 		<div className="header">
-			
-			<div className="img-logo">
-				<img src={logo} alt=""/>
+			<div className="img-logo-invisible">
+				{/* <img src={logo} alt=""/> */}
 			</div>
+			
 		
 			<div className="name">
 				<h1>Лікар загальної практики - сімейний лікар</h1>
-				<h1>Анна Солодун</h1>
+				{/* <h1>Анна Солодун</h1> */}
 			</div>
 		
 			<div className="phone">

@@ -27,9 +27,9 @@ html {
 .header {
   align-items: center;
   justify-content: center; }
-  .header .img-logo {
+  .header .img-logo-invisible {
     flex: 0 1 160px; }
-    .header .img-logo img {
+    .header .img-logo-invisible img {
       max-width: 100%; }
   .header .name {
     flex: 1 1 500px; }
@@ -97,15 +97,24 @@ html {
   grid-template-rows: 147px auto 1fr auto;
   grid-template-areas: "main-header" "navigation" "body" "footer"; }
 
-.main-header {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #666666;
-  border-radius: 10px;
-  height: 149px;
-  background: url(../img/background_header.png) 0 0 repeat-x;
-  grid-area: main-header;
-  box-shadow: 0px 0px 30px -5px black inset; }
+.main-main-header {
+  position: relative;
+  height: 172px; }
+  .main-main-header .img-logo {
+    position: absolute;
+    top: -43px;
+    left: -16px; }
+    .main-main-header .img-logo img {
+      height: 246px; }
+  .main-main-header .main-header {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #666666;
+    border-radius: 10px;
+    height: 142px;
+    background: url(../img/background_header_2.png) no-repeat 0px 0px #bebec0;
+    grid-area: main-header;
+    box-shadow: 0px 0px 30px -5px black inset; }
 
 .navigation {
   background-color: rgba(255, 255, 255, 0); }

@@ -1,0 +1,21 @@
+.services {
+	table {
+		width: 100%;
+		border-spacing: 1px;
+
+	}
+	td, th{
+		padding: 5px;
+		border: 1px black solid;
+	
+	}
+	tr:hover td {
+		background: #f88585;
+	}
+	td:first-child{
+		text-align: right;
+	}
+	td:last-child {
+		text-align: center;
+	}
+}

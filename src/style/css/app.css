@@ -213,3 +213,20 @@ p {
   padding: 5px;
   border: 1px black solid;
   width: 50%; }
+
+.services table {
+  width: 100%;
+  border-spacing: 1px; }
+
+.services td, .services th {
+  padding: 5px;
+  border: 1px black solid; }
+
+.services tr:hover td {
+  background: #f88585; }
+
+.services td:first-child {
+  text-align: right; }
+
+.services td:last-child {
+  text-align: center; }

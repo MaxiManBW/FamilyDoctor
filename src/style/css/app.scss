@@ -30,10 +30,10 @@
 	height: 172px;
 	.img-logo {
 		position: absolute;		
-		top: -43px;
-    left: -16px;
+		top: -21px;
+    left: 15px;
 		img {
-			height: 246px;
+			height: 193px;
 		}
 	}	
 .main-header {
@@ -96,3 +96,4 @@
 @import 'staff';
 @import 'info';
 @import 'services';
+@import 'contacts';

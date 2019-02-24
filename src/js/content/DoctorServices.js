@@ -5,21 +5,18 @@ export class DoctorServices extends Component {
 	render() {
 		return (
 			<div className="services">
-			<table>
+				<table>
+			
 					<tbody>
 						<tr>
-							<td>№</td>
-							<td>Найменування послуги</td>
-							<td>Ціна послуги <br/>
-								грн.
-							</td>
+							<td><strong>Найменування послуги</strong></td>
+							<td><strong>Ціна послуги<br/> грн.</strong></td>
 						</tr>
 						<tr>
-							<td rowspan="3">1</td>
-							<td >
+							<td colspan="2">
 								<strong>Консультація сімейного лікаря, розроблення рекомендацій та складання індивідуальної схеми лікування у разі необхідності:</strong>
 							</td>
-							<td></td>
+							
 						</tr>
 						<tr>
 							<td>у кабінеті Надавача</td>
@@ -31,11 +28,9 @@ export class DoctorServices extends Component {
 						</tr>
 
 						<tr>
-							<td rowspan="3">2</td>
-							<td >
+							<td colspan="2">
 								<strong>Електрокардіографія з розшифруванням:</strong>
 							</td>
-							<td></td>
 						</tr>
 						<tr>
 							<td>у кабінеті Надавача</td>
@@ -47,11 +42,9 @@ export class DoctorServices extends Component {
 						</tr>
 
 						<tr>
-							<td rowspan="3">3</td>
-							<td >
+							<td colspan="2">
 								<strong>Внутрішньом’язові ін'єкції:</strong>
 							</td>
-							<td></td>
 						</tr>
 						<tr>
 							<td>у кабінеті Надавача</td>
@@ -63,12 +56,10 @@ export class DoctorServices extends Component {
 						</tr>
 
 						<tr>
-							<td rowspan="3">4</td>
-							<td >
-								<strong>Внутрішньовенні ін'єкції:</strong>
-							</td>
-							<td></td>
-						</tr>
+							<td colspan="2">
+							<strong>Внутрішньовенні ін'єкції:</strong>
+						</td>
+					</tr>
 						<tr>
 							<td>у кабінеті Надавача</td>
 							<td>30</td>
@@ -79,11 +70,9 @@ export class DoctorServices extends Component {
 						</tr>
 
 						<tr>
-							<td rowspan="3">5</td>
-							<td >
+							<td colspan="2">
 								<strong>Крапельне внутрішньовенне введення розчинів:</strong>
 							</td>
-							<td></td>
 						</tr>
 						<tr>
 							<td>у кабінеті Надавача</td>
@@ -95,7 +84,6 @@ export class DoctorServices extends Component {
 						</tr>
 						
 						<tr>
-							<td>6</td>
 							<td >
 								<strong>Інгаляції через небулайзер з беродуалом у кабінеті Надавача</strong>
 							</td>
@@ -103,11 +91,9 @@ export class DoctorServices extends Component {
 						</tr>		
 
 						<tr>
-							<td rowspan="8">7</td>
-							<td >
+							<td colspan="2">
 								<strong>Швидкі тести на:</strong>
 							</td>
-							<td></td>
 						</tr>
 						<tr>
 							<td>Вагітність</td>
@@ -130,16 +116,19 @@ export class DoctorServices extends Component {
 							<td>250</td>
 						</tr>
 						<tr>
-							<td>Экспресс-тест для діагностики мульти-інфекциї (4 види): ВІЛ, гепатит В (HBsAg), гепатит С, сифілис</td>
+							<td>Экспресс-тест для діагностики мульти-інфекції (4 види): ВІЛ, гепатит В (HBsAg), гепатит С, сифілис</td>
 							<td>250</td>
 						</tr>
 						<tr>
-							<td>Визначення цукру крові (глюкометром)</td>
+							<td>Визначення цукру в крові (глюкометром)</td>
 							<td>30</td>
 						</tr>
 						
 						<tr>
-							<td>8</td>
+							<td colspan="2" height="30px"></td>
+						</tr>
+
+						<tr>
 							<td >
 								<strong>Видача довідок</strong>
 							</td>
@@ -148,8 +137,6 @@ export class DoctorServices extends Component {
 					
 					</tbody>
 				</table>
-
-				
 			</div>
 		)
 	}

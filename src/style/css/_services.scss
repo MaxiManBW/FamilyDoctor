@@ -1,8 +1,15 @@
 .services {
+	display: flex;
+	justify-content: center;
+	
 	table {
-		width: 100%;
+		width: 80%;
 		border-spacing: 1px;
-
+		
+	
+	}
+	tbody:first-child>tr:first-child{
+		text-align: center;
 	}
 	td, th{
 		padding: 5px;
@@ -12,10 +19,9 @@
 	tr:hover td {
 		background: #f88585;
 	}
-	td:first-child{
-		text-align: right;
-	}
+
 	td:last-child {
 		text-align: center;
 	}
+	
 }

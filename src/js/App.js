@@ -1,19 +1,20 @@
 import * as React from 'react';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import { Component } from 'react';
 import '../style/css/app.css';
 import { Header } from './Header';
 import { Menu } from './Menu';
 
+
 import { Contact } from './content/Contact';
-import { NewsAndShares } from './content/NewsAndShares';
+// import { NewsAndShares } from './content/NewsAndShares';
 import { Recording } from './content/Recording';
 import { DoctorServices } from './content/DoctorServices';
 import { Staff } from './content/Staff';
-import { Vacancy } from './content/Vacancy';
+// import { Vacancy } from './content/Vacancy';
 import { Info } from './content/Info';
 import { Main }  from './content/Main';
-import logo from '../style/img/logo.svg';
+import logo from '../style/img/logo.png';
 
 const MENU_NAMES = [
 	{name: "Головна", path: "/"},
@@ -35,7 +36,7 @@ export class App extends Component {
 				
 				<div className="main-main-header">
 					<div className="img-logo">
-						<img src={logo} alt=""/>
+						<Link to={MENU_NAMES[0].path} > <img src={logo} alt=""/> </Link> 
 					</div>
 					<div className="main-header"> 
 						<Header />

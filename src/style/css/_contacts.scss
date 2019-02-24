@@ -1,0 +1,21 @@
+.contacts {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+	.contact-item {
+		display: flex;
+		flex-direction: column;
+		
+		a{
+			align-items: center;
+			display: flex;
+			flex-direction: column;
+			img{
+				width: 128px;
+			}
+		}
+	
+	
+	}
+}

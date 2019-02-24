@@ -46,9 +46,10 @@ html {
     margin-right: 10px;
     margin-top: 15px;
     flex: 0 1 250px;
-    font-size: 1.125em; }
+    font-size: 1em; }
     .header .phone a {
-      color: #000; }
+      color: #6d0707;
+      align-self: flex-end; }
     .header .phone p {
       padding: 2px;
       margin: 2px;

@@ -19,12 +19,14 @@ export class Header extends Component {
 			</div>
 		
 			<div className="phone">
-				<a href="/contact/#map">
-					<p>Товариська 56/Ладозька 25</p>
-					<p>Запоріжжя</p>
-				</a> 
 				<p><strong><a href="tel:+3 (8061) 707 37 11">тел. 707 37 11</a></strong></p>
 				<p><strong><a href="tel:+3 (8094) 920 77 11">моб. 094 920 77 11</a></strong></p>
+				<a href="/contact/#map">
+					<p><strong>Товариська 56/Ладозька 25</strong></p>
+				</a>
+				<a href="/contact/#map">
+					<p><strong>м.Запоріжжя</strong></p>
+				</a> 
 			</div>
 
 		</div>

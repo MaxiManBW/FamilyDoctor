@@ -1,16 +1,16 @@
-import React from 'react';
-import {Component} from 'react';
-// import '../../css/staff.css';
+import React from 'react'
+import {Component} from 'react'
+// import '../../css/staff.css'
 import photo_none from '../../style/img/photos-staff/none.jpg'
 
 
 export class Staff extends Component {
 	render() {
 		return (
-			<div className="staff">
+			<div className='staff'>
 				
-				<div className="staff-card">
-					<p className="biography"> <img src={photo_none} className="staff-photo" alt=""/> </p>
+				<div className='staff-card'>
+					<p className='biography'> <img src={photo_none} className='staff-photo' alt=''/> </p>
 						<h2>Солодун Анна Іванівна 11.11.1986р.н.</h2>
 						
 						<p><strong>У 2010р.</strong> закінчила Запорізький державний медичний університет і отримала повну медичну освіту за спеціальністю «Лікувальна справа» та здобула кваліфікацію лікаря.</p>
@@ -83,16 +83,16 @@ export class Staff extends Component {
 					
 				</div>
 				
-				<div className="staff-card">
-					<p><img src={photo_none} className="staff-photo"  alt=""/></p>
+				<div className='staff-card'>
+					<p><img src={photo_none} className='staff-photo'  alt=''/></p>
 				</div>
 
-				<div className="staff-card">
-					<p><img src={photo_none} className="staff-photo" alt=""/></p>
+				<div className='staff-card'>
+					<p><img src={photo_none} className='staff-photo' alt=''/></p>
 				</div>
 
-				<div className="staff-card">
-					<p><img src={photo_none} className="staff-photo" alt=""/></p>
+				<div className='staff-card'>
+					<p><img src={photo_none} className='staff-photo' alt=''/></p>
 				</div>
 
 			</div>

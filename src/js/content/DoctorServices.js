@@ -1,10 +1,10 @@
-import React from 'react';
-import {Component} from 'react';
+import React from 'react'
+import {Component} from 'react'
 
 export class DoctorServices extends Component {
 	render() {
 		return (
-			<div className="services">
+			<div className='services'>
 				<table>
 			
 					<tbody>
@@ -13,7 +13,7 @@ export class DoctorServices extends Component {
 							<td><strong>Ціна послуги<br/> грн.</strong></td>
 						</tr>
 						<tr>
-							<td colspan="2">
+							<td colspan='2'>
 								<strong>Консультація сімейного лікаря, розроблення рекомендацій та складання індивідуальної схеми лікування у разі необхідності:</strong>
 							</td>
 							
@@ -28,7 +28,7 @@ export class DoctorServices extends Component {
 						</tr>
 
 						<tr>
-							<td colspan="2">
+							<td colspan='2'>
 								<strong>Електрокардіографія з розшифруванням:</strong>
 							</td>
 						</tr>
@@ -42,7 +42,7 @@ export class DoctorServices extends Component {
 						</tr>
 
 						<tr>
-							<td colspan="2">
+							<td colspan='2'>
 								<strong>Внутрішньом’язові ін'єкції:</strong>
 							</td>
 						</tr>
@@ -56,7 +56,7 @@ export class DoctorServices extends Component {
 						</tr>
 
 						<tr>
-							<td colspan="2">
+							<td colspan='2'>
 							<strong>Внутрішньовенні ін'єкції:</strong>
 						</td>
 					</tr>
@@ -70,7 +70,7 @@ export class DoctorServices extends Component {
 						</tr>
 
 						<tr>
-							<td colspan="2">
+							<td colspan='2'>
 								<strong>Крапельне внутрішньовенне введення розчинів:</strong>
 							</td>
 						</tr>
@@ -91,7 +91,7 @@ export class DoctorServices extends Component {
 						</tr>		
 
 						<tr>
-							<td colspan="2">
+							<td colspan='2'>
 								<strong>Швидкі тести на:</strong>
 							</td>
 						</tr>
@@ -125,7 +125,7 @@ export class DoctorServices extends Component {
 						</tr>
 						
 						<tr>
-							<td colspan="2" height="30px"></td>
+							<td colspan='2' height='30px'></td>
 						</tr>
 
 						<tr>

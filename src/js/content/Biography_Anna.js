@@ -1,8 +1,6 @@
-import React from 'react';
-import {Component} from 'react';
-// import '../../css/staff.css';
-import photo_none from '../../style/img/photos-staff/none.jpg'
-
+import React from 'react'
+import {Component} from 'react'
+// import '../../css/staff.css'
 
 export class Biography_Anna extends Component {
 render (){

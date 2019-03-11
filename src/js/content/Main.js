@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 export class Main extends Component {
   render() {
     return (
-			<div className="container-content">
+			<div className='container-content'>
 				<p>{this.props.content}</p>
-				<div className="doctor-oath">
+				<div className='doctor-oath'>
 					<h2>Присяга лікаря</h2>
 		
 					<p>Я присягаю повною мірою своїх сил та суджень дотримуватися даної мною обітниці:</p>
@@ -32,6 +32,6 @@ export class Main extends Component {
 			
 				</div>
 			</div>
-    );
+    )
   }
 }  		

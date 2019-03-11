@@ -1,8 +1,6 @@
-import * as React from 'react';
-import { Component } from 'react';
-import {Link} from 'react-router-dom';
-// import Button from '@material-ui/core/Button';
-
+import * as React from 'react'
+import { Component } from 'react'
+import {Link} from 'react-router-dom'
 // import '../style/css/btn.css'
 
 export class Menu extends Component {
@@ -20,12 +18,14 @@ export class Menu extends Component {
 										{place.name}
 									</li>
 								</Link>
-							
 						))}
+						<a class='item' href='https://patient.medcard24.net/' target='RegistrationOnMedcard24' > 
+							<li>Запис до лікаря</li>
+						</a>
 					</ul>
 				</nav>
 
 			</div>
-    );
+    )
 	}
 }  	

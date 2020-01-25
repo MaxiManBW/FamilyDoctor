@@ -32,7 +32,7 @@ html {
     .header .img-logo-invisible img {
       max-width: 100%; }
   .header .name {
-    flex: 1 1 500px; }
+    flex: 1 1 400px; }
     .header .name h1 {
       font-family: Segoe_Script_Bold;
       font-size: 2em;
@@ -44,8 +44,7 @@ html {
     flex-direction: column;
     margin: 0 auto;
     margin-right: 10px;
-    margin-top: 15px;
-    flex: 0 1 250px;
+    flex: 0 1 350px;
     font-size: 1em; }
     .header .phone a {
       color: #6d0707;

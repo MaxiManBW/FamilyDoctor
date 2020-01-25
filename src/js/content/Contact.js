@@ -21,6 +21,18 @@ export class Contact extends Component {
 						</a>
 					</div>
 					<div className='contact-item'>
+						<a href='tel:+3 (8050) 920 77 11'>
+							<img src={logo_phone} alt=''/>
+							<p>Мобільний - 050 920 77 11</p>
+						</a>
+					</div>
+					<div className='contact-item'>
+						<a href='tel:+3 (8067) 920 77 11'>
+							<img src={logo_phone} alt=''/>
+							<p>Мобільний - 067 920 77 11</p>
+						</a>
+					</div>
+					<div className='contact-item'>
 						<a href='tel:+3 (8061) 707 37 11'>
 							<img src={logo_phone} alt=''/>
 							<p>Телефон - 707 37 11</p>

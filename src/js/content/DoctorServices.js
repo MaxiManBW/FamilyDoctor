@@ -22,10 +22,6 @@ export class DoctorServices extends Component {
 							<td>у кабінеті Надавача</td>
 							<td>150</td>
 						</tr>
-						<tr>
-							<td>за місцем проживання Клієнта</td>
-							<td>200</td>
-						</tr>
 
 						<tr>
 							<td colspan='2'>
@@ -35,10 +31,6 @@ export class DoctorServices extends Component {
 						<tr>
 							<td>у кабінеті Надавача</td>
 							<td>60</td>
-						</tr>
-						<tr>
-							<td>за місцем проживання Клієнта</td>
-							<td>100</td>
 						</tr>
 
 						<tr>
@@ -50,10 +42,6 @@ export class DoctorServices extends Component {
 							<td>у кабінеті Надавача</td>
 							<td>20</td>
 						</tr>
-						<tr>
-							<td>за місцем проживання Клієнта</td>
-							<td>30</td>
-						</tr>
 
 						<tr>
 							<td colspan='2'>
@@ -64,10 +52,6 @@ export class DoctorServices extends Component {
 							<td>у кабінеті Надавача</td>
 							<td>30</td>
 						</tr>
-						<tr>
-							<td>за місцем проживання Клієнта</td>
-							<td>50</td>
-						</tr>
 
 						<tr>
 							<td colspan='2'>
@@ -77,10 +61,6 @@ export class DoctorServices extends Component {
 						<tr>
 							<td>у кабінеті Надавача</td>
 							<td>70</td>
-						</tr>
-						<tr>
-							<td>за місцем проживання Клієнта</td>
-							<td>100</td>
 						</tr>
 						
 						<tr>
